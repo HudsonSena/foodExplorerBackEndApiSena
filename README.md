@@ -1,7 +1,5 @@
 # "Food Explorer Sena"
 
-![preview]() ![preview]()
-
 Project building from "Rocktseat" classes.
 
 [Click here to access project](https://foodexplorersena.netlify.app/)
