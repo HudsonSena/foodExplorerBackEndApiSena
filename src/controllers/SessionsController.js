@@ -33,12 +33,12 @@ class SessionsController {
       httpOnly: true,
       sameSite: "none",
       secure: true,
-      maxAge: 15 * 60 * 1000,
+      maxAge: 20 * 60 * 1000,
     });
 
     delete user.password;
 
-    return response.json({ user, admin });
+    response.status(201).json({ user, admin });
   }
 }
 

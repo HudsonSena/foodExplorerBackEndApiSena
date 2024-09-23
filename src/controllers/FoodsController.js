@@ -12,7 +12,7 @@ class FoodsController {
     const database = await sqliteConnection();
 
     const checkFoodExists = await database.get(
-      "SELECT * FROM foods  WHERE title = (?)",
+      "SELECT * FROM foods WHERE title = (?)",
       [title]
     );
 
